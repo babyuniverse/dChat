@@ -40,7 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fc3153;
+    background-color: #fdabde;
 }
 
 .mainTitleDash {
@@ -54,7 +54,7 @@
 .dOfdChatDash {
     font-family: 'Pixellari', sans-serif;
     font-size: 3.6rem;    
-    color: white;   
+    color: rgb(0, 0, 0);   
     font-weight: 400;
     text-shadow: 1px 1px hsl(200 50% 30%), 2px 2px hsl(200 50% 30%), 3px 3px hsl(200 50% 30%), 4px 4px hsl(200 50% 30%), 5px 5px hsl(200 50% 30%), 6px 6px hsl(200 50% 30%), 7px 7px hsl(200 50% 30%)
 
@@ -91,7 +91,7 @@
     position: relative;
     align-items: center;
     justify-content: center;
-    background-image:radial-gradient(circle, lightcoral, tomato);
+    background-image:radial-gradient(circle, lightcoral, rgb(110, 255, 236));
     padding-right: 2.5rem;
 }
 
@@ -111,7 +111,7 @@
 }
 
 .friendSearchFieldDash:hover {
-    box-shadow:  0px 0px #ffd75e;
+    box-shadow:  0px 0px #9effef;
     transition:  0.3s ease-in-out;
 }
 
@@ -132,7 +132,7 @@
     flex: 9;
     padding: 1rem;
     overflow-y: auto;
-    background-image:radial-gradient(circle, yellow, orange);
+    background-image:radial-gradient(circle, rgb(247, 0, 255), rgb(250, 248, 117));
 }
 
 .nameOfFriendsDash {
@@ -164,7 +164,7 @@
  
  .nameOfFriendsDash:hover {
     transition: 0.25s;
-    box-shadow: 10px 10px 0 #c52754;
+    box-shadow: 10px 10px 0 #ffaeae;
 }
  
 .nameOfFriendsDash span:nth-child(2) {
@@ -213,7 +213,7 @@ span:nth-child(2) {
     box-shadow:0 6px 6px -6px #000;
     margin:0.5vmin;
     display: flex;
-    background-image:radial-gradient(circle, #cd4ffd, #b501ff);
+    background-image:radial-gradient(circle, #dd8dfd, #b501ff);
     align-items: center;
     height: 4.35rem;   
 }
@@ -247,7 +247,7 @@ span:nth-child(2) {
     padding-right: 1rem;
     padding-bottom: 1rem;
     background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(0)" opacity="0.2" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23250E17"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'),
-    #c52754;
+    #eea3ee;
     background-size: 15px, 100%;
 }
 
@@ -260,7 +260,7 @@ span:nth-child(2) {
     font-family: "Dekko", cursive;
     font-size: 1.5rem;
     background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(25)" opacity="0.8" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23d68810"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'),
-    #ffcd28de;
+    #9cebff;
     background-size: 13px, 100%;
     font-weight: 700;
     height: fit-content;
@@ -308,7 +308,7 @@ span:nth-child(2) {
     border:solid 2px #000;
     box-shadow:0 6px 6px -6px #000;
     margin:0.5vmin;
-    background-image:radial-gradient(circle, palegreen, yellowgreen);
+    background-image:radial-gradient(circle, rgb(157, 241, 227), rgb(245, 255, 157));
     flex: 1 ;
     height: 4rem;
     padding-right: 1rem;

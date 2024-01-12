@@ -5,7 +5,7 @@ import {
   Routes
 } from "react-router-dom";
 import Login from "./components/Login";
-import PrivateRoute from "./components/PrivateRoutes";
+import { Dashboard } from "./components/Dashboard";
 import { AuthProvider } from './contexts/AuthContext'
 
 
@@ -16,7 +16,7 @@ function App() {
       <div>
         <AuthProvider>
           <Routes>
-            <Route exact path="/" element={<PrivateRoute />}></Route>
+            <Route exact path="/dashboard" element={<Dashboard />}></Route>
             <Route exact path="/login" element={<Login />} />
           </Routes>
         </AuthProvider>
